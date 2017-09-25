@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+/*@media (max-width: 320px) {section.contact h2{ font-size:7vw !important;}}
+@media (max-width: 480px) and  {section.contact h2{ font-size:6vw !important;}}*/
+@media (min-width: 768px){
+	 .container {
+    max-width: 750px;
+	
+  }
+	section.clients{ margin:6em auto; padding: 100px 15px;}
+	section.clients{ background-size:cover !important}
+	section.clients .our{margin:auto auto 80px;}
+}
+@media (min-width: 768px) { 
+  section.header{margin:0 auto 6em;}
+  section.header .header-content{ padding:5em 0 10em}
+  section.header .header-content h2{ white-space:nowrap;}
+ /* section.contact h2{ font-size:3vw !important;}*/
+  
+} 
+@media (max-width: 800px) {
+	h1{font-size:25px;}	
+	section.clients{ background-size:cover !important; padding:1em;}
+}
+@media (max-width: 800px) 
+=
+@media (max-width: 800px) {
+		/*section.contact h2{font-size:6vw !important; width:100vw !important;}*/
+}
+@media (max-width: 769px) {
+	section.header .icons{text-align:center;}
+	section.header .icons .facebook img{ margin-left:0;}
+	footer.footer { text-align:center}
+	footer.footer .terms{ text-align:center !important;}
+
+	}
+.mobile-fix{ overflow-x:hidden;}
+
+
+body, p, span, input{font-family: Arial, Helvetica, sans-serif;}
+section.header{background-image: url(../images/header_bg.jpg);background-size: cover;background-repeat:no-repeat;color: #FFF; }
+section.header > .row{ padding:15px;}
+section.header .logo-soda img{margin:0 auto;}
+section.header .header-content( padding: auto;)
+section.header .header-content .pushing{ display:table; margin:auto;}
+.pushing{ display:table; margin:2.5em  auto 1em}
+.pushing h1{ text-align:center; text-transform:uppercase; border-bottom:1px #fff inset; font-family: Arial, Helvetica, sans-serif; font-weight:900; padding-bottom:20px; letter-spacing: 6px;} 
+
+a.icon img{ margin-left:1em;}
+a.facebook img{ background:#256299;}
+a.twitter img{ background:#378bb7;}
+a.instagram img{background: #246485;}
+
+.middle{}	
+.middle h2{ font-size:16px; color: #286191;  padding-top:15px; border-top:#286191 thick inset; display:inline-block; font-family: Arial, Helvetica, sans-serif; font-weight:bold; text-transform:uppercase; letter-spacing:4px;line-height:26px}
+.middle p{ color:#286191; font-family:Arial, Helvetica, sans-serif;}
+
+
+section.clients .our{display: table; margin:auto;}
+section.clients h2{ font-size:40px; font-size:4vw; color: #fff; text-transform:uppercase;  padding-top:15px; border-bottom:#fff 1px inset; display:inline-block;}
+
+section.clients{background-image: url(../images/clients_bg.jpg);background-size: contain;background-repeat:no-repeat;color: #FFF; }
+section.clients .col-md-3{ text-align:center;}
+section.clients img{ background:#1e2f3e; margin:15px auto 0;}
+
+section.contact h2{ font-weight:bold; text-align:justify; color:#1e2f3e; display:block;  white-space:nowrap; border-bottom:#1e2f3e 1px inset; margin-bottom:50px; padding-bottom:20px; font-size:3em;}
+section.contact p{ color:#1e2f3e}
+section.contact p span{ font-weight:bold;}
+section.contact div.form{ margin-top:30px;}
+section.contact div input[type=text], section.contact div input[type=email], section.contact div textarea{ background:#f2f3f3; border:0; border-bottom:#c9d7e3 2px inset; border-radius:0; text-transform:uppercase}
+section.contact div .btn{ background:#286191; border:0; border-radius:0; text-transform:uppercase;}
+
+
+ footer.footer{ background-color:#0d171f; color:#fff; padding:50px 15px; font-size:19px; margin-top:5em; text-decoration:}
+ footer.footer .terms{ text-align:right;}
+ 
